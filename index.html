@@ -21,19 +21,28 @@
       <div class="header__logo">
         <img src="./images/logo-bookmark.svg" alt="">
       </div>
-      <label class="flex" for="nav-bar">
-        <input type="checkbox" id="nav-bar">
-        <div>
-          <img src="./images/icon-hamburger.svg" alt="">
-          <img src="./images/icon-close.svg" alt="">
-        </div>
+      <input type="checkbox" id="nav-bar" class="hidden">
+      <label class="flex z-10" for="nav-bar">
+        <img src="./images/icon-hamburger.svg" alt="">
+        <img src="./images/icon-close.svg" alt="">
       </label>
-      <!-- <nav class="header__nav">
-        <a class="header__nav-link" href="">Features</a>
-        <a class="header__nav-link" href="">Pricing</a>
-        <a class="header__nav-link" href="">Contact</a>
-        <button class="header__btn">Login</button>
-      </nav> -->
+      <nav class="header__nav">
+        <div class="mb-9">
+          <img src="./images/Nav-logo-bookmark .svg" alt="">
+        </div>
+        <a class="header__nav-link border-y py-5" href="">Features</a>
+        <a class="header__nav-link py-5" href="">Pricing</a>
+        <a class="header__nav-link border-y py-5 mb-5" href="">Contact</a>
+        <button class="header__btn border-2 uppercase tracking-wider rounded-md w-full py-3">Login</button>
+        <div class="header__socials flex justify-center gap-9 mt-48">
+          <a class="header__social-link" href="">
+            <img src="./images/icon-facebook.svg" alt="">
+          </a>
+          <a class="header__social-link" href="">
+            <img src="./images/icon-twitter.svg" alt="">
+          </a>
+        </div>
+      </nav>
     </section>
   </header>
   <main>
@@ -49,7 +58,7 @@
         </p>
         <div class="hero__btns flex justify-center gap-3">
           <a class="hero__chrome-btn btn bg-Soft_Blue text-white" href="">Get it on Chrome</a>
-          <a class="hero__firefox-btn btn bg-Grayish_Blue text-black" href="">Get it on Firefox</a>
+          <a class="hero__firefox-btn btn text-Grayish_Blue shadow-lg" href="">Get it on Firefox</a>
         </div>
       </div>
     </section>
@@ -74,7 +83,7 @@
       </div>
       <div class="features__link-illustrations">
         <div class="features__illustration-1">
-          <div class="illustration-1__img mb-16">
+          <div class="illustration-1__img mb-16 flex justify-center">
             <img src="./images/illustration-features-tab-1.svg" alt="">
           </div>
           <h3 class="illustration-1__title text-center font-medium text-Very_Dark_Blue mb-5">Bookmark in one click</h3>
@@ -206,7 +215,7 @@
     </section>
     <section class="cta bg-Soft_Blue mt-28 pt-16 pb-14">
       <div class="container">
-        <h6 class="cta__title text-center uppercase text-white mb-4">35,000+ already joined</h6>
+        <h6 class="cta__title tracking-wider text-center uppercase text-white mb-4">35,000+ already joined</h6>
         <p class="cta__desc text-center mb-7 text-white font-medium">Stay up-to-date with what we’re doing</p>
         <form action="">
           <label for="Email">
@@ -223,13 +232,13 @@
         <div class="footer__logo">
           <img src="./images/logo-bookmark -footer.svg" alt="">
         </div>
-        <nav class="footer__nav flex flex-col items-center gap-7 text-white">
+        <nav class="footer__nav flex flex-col items-center tracking-wide uppercase gap-8 text-white">
           <a class="footer__nav-link" href="">Features</a>
           <a class="footer__nav-link" href="">Pricing</a>
           <a class="footer__nav-link" href="">Contact</a>
         </nav>
       </div>
-      <div class="footer__social flex justify-center gap-8 mt-8">
+      <div class="footer__social flex justify-center gap-8 mt-10">
         <a class="footer__social-link" href="">
           <img src="./images/icon-facebook.svg" alt="">
         </a>
