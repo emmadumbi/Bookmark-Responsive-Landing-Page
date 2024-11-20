@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+
+html {
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    min-height: 100dvh;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 31px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 14px;
+    letter-spacing: 0.26em;
+}
+
+.cta__desc {
+    font-size: 24px;
+    line-height: inherit;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.container {
+    width: min(100% - 16%, 1000px);
+    margin-inline: auto;
+}
+
+.btn {
+    padding: 0.9em 0.9em;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.3rem 1.5rem 1.3rem; 
+    margin-block: 1.1rem;
+    border-radius: 8px;
+}
+
+.card__img {
+    margin-block-end: 28px;
+}
+
+.card__title {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.card__desc {
+    margin-block-end: 65px;
+}
+
+.card__btn {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.94em 2.4em;
+    display: flex;
+    align-items: center;
+    background-color: var(--Soft-Blue);
+    color: white;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-btn {
+    font-size: 15px;
+    padding: 0.8rem 1.3rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
